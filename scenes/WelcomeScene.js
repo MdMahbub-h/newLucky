@@ -6,24 +6,24 @@ class WelcomeScene extends Phaser.Scene {
     super("WelcomeScene");
   }
   preload() {
-    this.load.image("background", "/public/assets/spin1/welcome-bg.jpg");
-    this.load.image("welcome-bg", "/public/assets/spin1/welcome-bg.jpg");
-    this.load.image("game-bg", "/public/assets/spin1/game-bg.png");
-    this.load.image("btn", "/public/assets/spin1/btn.png");
-    this.load.spritesheet("buttons", "/public/assets/spin1/buttons.png", {
+    this.load.image("background", "/assets/spin1/welcome-bg.jpg");
+    this.load.image("welcome-bg", "/assets/spin1/welcome-bg.jpg");
+    this.load.image("game-bg", "/assets/spin1/game-bg.png");
+    this.load.image("btn", "/assets/spin1/btn.png");
+    this.load.spritesheet("buttons", "/assets/spin1/buttons.png", {
       frameWidth: 1200 / 3,
       frameHeight: 1165 / 3,
     });
 
-    this.load.image("logo", "/public/assets/spin1/logo.png");
-    this.load.image("wheel", "/public/assets/spin1/wheel.png");
-    this.load.image("wheelTPoint", "/public/assets/spin1/upper.png");
-    this.load.image("diamond", "/public/assets/spin1/diamond.png");
-    this.load.image("bar", "/public/assets/spin1/bar.png");
-    this.load.image("progress", "/public/assets/spin1/progress.png");
-    this.load.image("progress2", "/public/assets/spin1/progress2.png");
-    this.load.image("middle", "/public/assets/spin1/middle.png");
-    this.load.image("box", "/public/assets/spin1/box2.png");
+    this.load.image("logo", "/assets/spin1/logo.png");
+    this.load.image("wheel", "/assets/spin1/wheel.png");
+    this.load.image("wheelTPoint", "/assets/spin1/upper.png");
+    this.load.image("diamond", "/assets/spin1/diamond.png");
+    this.load.image("bar", "/assets/spin1/bar.png");
+    this.load.image("progress", "/assets/spin1/progress.png");
+    this.load.image("progress2", "/assets/spin1/progress2.png");
+    this.load.image("middle", "/assets/spin1/middle.png");
+    this.load.image("box", "/assets/spin1/box2.png");
   }
 
   create() {
